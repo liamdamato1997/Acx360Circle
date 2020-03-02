@@ -5,7 +5,7 @@ workflows:
   scan-workflow:
     jobs:
       - acunetix360/scan:
-          website_id: cc4db2b4-2e44-4028-df47-ab5201639d1d
+          website_id: 321e6e85-f0bb-4d7e-3d78-ab4b01d4186f
           api_url: https://online.acunetix360.com/
           scan_type: FullWithPrimaryProfile
 
