@@ -7,5 +7,6 @@ workflows:
       - acunetix360/scan:
           website_id: 321e6e85-f0bb-4d7e-3d78-ab4b01d4186f
           api_url: https://online.acunetix360.com/
-          scan_type: FullWithPrimaryProfile
+          scanProfile_id: 804db4b1-3a96-4327-3cb1-ac2a019414b0
+          scan_type: FullWithSelectedProfile
 
